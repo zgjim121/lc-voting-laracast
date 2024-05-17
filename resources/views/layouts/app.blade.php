@@ -84,8 +84,7 @@
                         cols="30"
                         rows="4"
                         class="w-full border-none bg-gray-100 rounded-xl placeholder-gray-900 text-sm px-4 py-2"
-                        placeholder="Describe your Idea">
-                    </textarea>
+                        placeholder="Describe your Idea"></textarea>
                 </div>
                 <div class="flex items-center justify-between space-x-3">
                     <button

@@ -106,8 +106,7 @@
                                 rows="4"
                                 class="w-full text-xs bg-gray-100 rounded-xl placeholder-gray-900
                                 border-none px-4 py-2"
-                                placeholder="Go ahead, dont be shy. Share your thoughts...">
-                            </textarea>
+                                placeholder="Go ahead, dont be shy. Share your thoughts..."></textarea>
                         </div>
                         <div class="flex items-center space-x-3">
                             <button
@@ -204,8 +203,7 @@
                                 rows="3"
                                 class="w-full text-xs bg-gray-100 rounded-xl placeholder-gray-900
                                         border-none px-4 py-2"
-                                placeholder="Add an update comment (optional)">
-                            </textarea>
+                                placeholder="Add an update comment (optional)"></textarea>
                         </div>
                         <div class="flex items-center justify-between space-x-3">
                             <button
