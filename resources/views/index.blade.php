@@ -48,11 +48,13 @@
                     </button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random Title can go here</a>
                     </h4>
@@ -80,7 +82,7 @@
                                         rounded-full text-center w-28 h-7 py-2 px-4">
                                 Open
                             </div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-7
                                             transition duration-150 ease-in py-2 px-3">
                                 <svg fill="currentColor" width="24" height="6">
                                     <path d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97
@@ -120,16 +122,18 @@
                 <div class="mt-8">
                     <button
                         class="w-20 bg-blue border border-blue hover:border-blue
-                         font-bold text-xxs uppercase rounded-xl px-4 py-3 transition duration-150 ease-in">
+                         font-bold text-xxs text-white uppercase rounded-xl px-4 py-3 transition duration-150 ease-in">
                         VOTED
                     </button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">Another random Title can go here</a>
                     </h4>
@@ -157,7 +161,7 @@
                                         rounded-full text-center w-28 h-7 py-2 px-4">
                                 IN PROGRESS
                             </div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-7
                                             transition duration-150 ease-in py-2 px-3">
                                 <svg fill="currentColor" width="24" height="6">
                                     <path d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97
@@ -200,11 +204,13 @@
                     </button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random Title can go here</a>
                     </h4>
@@ -275,11 +281,13 @@
                     </button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random Title can go here</a>
                     </h4>
@@ -350,11 +358,13 @@
                     </button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://i.pravatar.cc/" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random Title can go here</a>
                     </h4>
