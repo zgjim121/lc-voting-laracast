@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Models\Category;
 use App\Models\Idea;
+use App\Models\Status;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use PHPUnit\Framework\Attributes\Test;
@@ -18,6 +19,7 @@ class ShowIdeasTest extends TestCase
 
         $categoryOne = Category::factory()->create(['name' => 'Category 1']);
         $categoryTwo = Category::factory()->create(['name' => 'Category 2']);
+        
 
         $ideaOne = Idea::factory()->create([
             'title' => 'My First Idea',
@@ -37,7 +39,6 @@ class ShowIdeasTest extends TestCase
         $response->assertSee($ideaOne->title);
         $response->assertSee($categoryOne->name);
         $response->assertSee($ideaOne->description);
-
         $response->assertSee($ideaTwo->title);
         $response->assertSee($categoryTwo->name);
         $response->assertSee($ideaTwo->description);
