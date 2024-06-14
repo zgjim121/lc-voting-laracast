@@ -4,6 +4,8 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -45,12 +47,17 @@ class User extends Authenticatable
         ];
     }
 
-    public function ideas()
+    public function ideas(): HasMany
     {
         return $this->hasMany(Idea::class);
     }
 
-    public function getAvatar()
+    public function votes(): BelongsToMany
+    {
+        return $this->belongsToMany(Idea::class, 'votes');
+    }
+
+    public function getAvatar(): string
     {
 
         $firstCharacter = $this->email[0];
@@ -61,11 +68,9 @@ class User extends Authenticatable
             $integerToUse = ord(strtolower($firstCharacter)) - 96;
         }
 
-
-
         return 'https://www.gravatar.com/avatar/'
             . hash("sha256", $this->email)
             . '?s=200&d=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-'
-            .$integerToUse.'.png';
+            . $integerToUse . '.png';
     }
 }
