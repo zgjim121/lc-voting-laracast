@@ -46,6 +46,22 @@ class Idea extends Model
             ->exists();
     }
 
+    public function vote(User $user): void
+    {
+        Vote::create([
+            'idea_id' => $this->id,
+            'user_id' => $user->id
+        ]);
+    }
+
+    public function removeVote(User $user): void
+    {
+        Vote::where('idea_id', $this->id)
+            ->where('user_id', $user->id)
+            ->first()
+            ->delete();
+    }
+
     public function sluggable(): array
     {
         return [

@@ -69,9 +69,17 @@
                         </div>
                         @if($hasVoted)
                             <button
-                                class="w-20 bg-blue border text-white border-blue font-bold text-xxs uppercase rounded-xl hover:bg-blue-hover transition duration-150 ease-in px-4 py-3 -mx-5"
+                                wire:click.prevent="vote"
+                                class="w-20 bg-blue text-white border border-blue font-bold text-xxs uppercase rounded-xl hover:bg-blue-hover transition duration-150 ease-in px-4 py-3 -mx-5"
                             >
                                 Voted
+                            </button>
+                        @else
+                            <button
+                                wire:click.prevent="vote"
+                                class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5"
+                            >
+                                Vote
                             </button>
                         @endif
                     </div>
@@ -234,10 +242,17 @@
             </div>
             @if($hasVoted)
                 <button
-                    type="button"
-                    class="w-32 h-11 text-xs text-white bg-blue font-semibold uppercase rounded-xl border border-blue hover:bg-blue-hover transition duration-150 ease-in px-6 py-3"
+                    wire:click.prevent="vote"
+                    class="w-20 bg-blue text-white border border-blue font-bold text-xxs uppercase rounded-xl hover:bg-blue-hover transition duration-150 ease-in px-4 py-3 -mx-5"
                 >
-                    <span>Vote</span>
+                    Voted
+                </button>
+            @else
+                <button
+                    wire:click.prevent="vote"
+                    class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5"
+                >
+                    Vote
                 </button>
             @endif
         </div>
